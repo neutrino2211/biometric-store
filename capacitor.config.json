@@ -1,0 +1,11 @@
+{
+  "appId": "com.buhari.biometricstore",
+  "appName": "BiometricStore",
+  "bundledWebRuntime": true,
+  "webDir": "dist",
+  "plugins": {
+    "SplashScreen": {
+      "launchShowDuration": 0
+    }
+  }
+}

@@ -1,0 +1,39 @@
+@font-face{
+  font-family: 'Bahnschrift';
+  src: url('../assets/fonts/bahnschrift_7-webfont.woff') format('woff');
+}
+
+html,
+body {
+  padding: 10px;
+  margin: 0;
+  font-family: 'Bahnschrift', Courier, monospace;
+}
+
+h3, h5 {
+  text-align: center;
+}
+
+div>button, div>input {
+  display: inline;
+  align-content: center;
+  margin: 2.5px;
+}
+
+button {
+  background-color: #999;
+  border-radius: 5px;
+  color: black;
+  padding: 10px;
+  font-weight: 700;
+  border-style: none;
+}
+
+button.copy {
+  display: block;
+  margin: auto;
+}
+
+button.active {
+  background-color: #aaaacc;
+}
